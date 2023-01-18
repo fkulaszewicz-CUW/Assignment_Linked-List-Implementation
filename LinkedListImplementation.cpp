@@ -50,13 +50,13 @@ int main()
                     {
                         tempNode = tempNode->nextNode;
                     }
+                    // Add new node to end of list
                     newNode = new Node();
                     newNode->row = x;
                     newNode->column = y;
                     newNode->value = sparseMatrix[x][y];
                     newNode->nextNode = NULL;
                     tempNode->nextNode = newNode;
-                    // cout << newNode->row << " " << newNode->column << " " << newNode->value << endl;
                 }
             }
         }
