@@ -61,7 +61,7 @@ int main()
             }
         }
     }
-    // Testing the Array Implementation for Sparse Matrix
+    // Testing the Linked List Implementation for Sparse Matrix
     while (list->nextNode != NULL)
     {
         cout << list->row << " " << list->column << " " << list->value << endl;
